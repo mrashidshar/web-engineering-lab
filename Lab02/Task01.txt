@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Sale</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            background-color: #ffffff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.5em;
+            border-bottom: 2px solid #2980b9;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .pricing-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .pricing-table th,
+        .pricing-table td {
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .pricing-table tr:nth-child(even) {
+            background-color: #f5f5f5;
+        }
+
+        .product-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .price {
+            font-size: 1.5em;
+            color: #27ae60;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #27ae60;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #219d53;
+        }
+
+        .product-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0 0 10px 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">Product Sale</div>
+        <table class="pricing-table">
+            <tbody>
+                <tr>
+                    <td class="product-name">Men's Wallet</td>
+                    <td class="product-name">Cap</td>
+                    <td class="product-name">T-Shirt</td>
+                </tr>
+                <tr>
+                    <td class="price">Rs. 6000</td>
+                    <td class="price">Rs. 500</td>
+                    <td class="price">Rs. 1200</td>
+                </tr>
+                <tr>
+                    <td><img class="product-image" src="wallet_image.jpg" alt="Men's Wallet"></td>
+                    <td><img class="product-image" src="cap_image.jpg" alt="Cap"></td>
+                    <td><img class="product-image" src="tshirt_image.jpg" alt="T-Shirt"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><a href="#" class="button">Buy Now</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
