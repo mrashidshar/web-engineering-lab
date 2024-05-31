@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+
+           
+        }
+        .outer_box{
+            background-color: rgb(43, 136, 107);
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            flex-direction: column;
+            row-gap: 10px;
+            width: 70%;
+            height: 70vh;
+
+        }
+        .header{
+            background-color: #355ccf;
+            width: 90%;
+            text-align: center;
+            font-weight: bolder;
+            
+        }
+        .inner_box{
+            display: flex;
+            width: 90%;
+            justify-content: space-between;
+            height: 90%;
+            column-gap: 10px;
+            
+        }
+        .aside{
+            background-color: #12b2e7;
+            flex-grow: 1;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .article{
+            background-color: #a31094;
+            flex-grow: 2;
+            display: flex;
+           align-items: center;
+            flex-direction: column;
+          justify-content: flex-end;
+          padding: 10px;
+
+        }
+        .footer{
+            background-color: #014b6d;
+            width: 90%;
+            text-align: center;
+            font-weight: bolder;
+        }
+        .images{
+            display: flex;
+            width: 80%;
+           column-gap: 10px;
+           height: 40%;
+
+        }
+        .images div{
+            background-color: #d3e2f0;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="outer_box">
+        <div class="header">
+            <p>HEADER</p>
+        </div>
+        <div class="inner_box">
+            <div class="aside">
+                    <p>ASIDE</p>
+            </div>
+            <div class="article">
+                <p>ARTICLE</p>
+                <div class="images">
+
+                    <div><p>IMAGE</p></div>
+                    <div><p>IMAGE</p></div>
+                    <div><p>IMAGE</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>FOOTER</p>
+        </div>
+    </div>
+</body>
+</html>

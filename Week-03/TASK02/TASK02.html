@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="5">
+   
+    <meta name="robots" content="noindex">
+
+    <title>Abc - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+        }
+
+        section {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            
+        }
+
+        h1,
+        h2 {
+            color: #333;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+            box-shadow: 2px 3px 1px gray;
+            border-radius: 10px;
+        }
+
+        .contact-form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        input,
+        textarea,
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        .bio {
+            display: flex;
+            flex-direction: row;
+            column-gap: 20px;
+            box-shadow: 2px 4px 1px gray;
+            border-radius: 10px;
+        }
+       .background-container{
+        background-color: rgb(56, 159, 128);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+       }
+       .white_background{
+        background-color: white
+        ;
+        margin: 10px;
+       }
+
+    </style>
+</head>
+
+<body>
+    <div class="background-container">
+      
+        <header>
+            <h1>Muhammad Rashid</h1>
+            <p>Web Developer</p>
+        </header>
+    
+        <section class="white_background">
+            <h2>About Me</h2>
+            <div class="bio">
+                <img src="./portfolio.jpeg" alt="">
+                <p>
+                    Welcome to my portfolio! I am a passionate web developer with expertise in front-end technologies.
+                    Feel free to explore my skills and projects below Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Recusandae praesentium nesciunt optio consectetur corrupti, vitae aliquam dignissimos quia rem
+                    quisquam nulla quis nam! Optio, corrupti impedit deserunt ducimus laboriosam expedita..
+                </p>
+            </div>
+        </section>
+    
+        <section class="white_background">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div>HTML5</div>
+                <div>CSS3</div>
+                <div>JavaScript</div>
+                <div>React</div>
+                <div>Node.js</div>
+                <div>SQL</div>
+                <!-- Add more skills as needed -->
+            </div>
+        </section>
+    
+        <section class="white_background">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur officiis vero porro commodi possimus
+                    reiciendis dolorum qui quidem, delectus totam et provident sint beatae magni veniam necessitatibus,
+                    explicabo perferendis distinctio?</p>
+                <img src="./download.jpeg" alt="Project 1 Image" style="max-width: 100%;">
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis aperiam nesciunt obcaecati debitis
+                    quaerat doloremque, aliquam blanditiis sed deleniti, repudiandae laborum praesentium ipsam quas expedita
+                    culpa animi quisquam excepturi eaque?.</p>
+                <img src="./download (1).jpeg" alt="Project 2 Image" style="max-width: 100%;">
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
+    
+        <section class="white_background">
+            <h2>Contact Me</h2>
+            <div class="contact-form">
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+      </div>
+
+</body>
+
+</html>
